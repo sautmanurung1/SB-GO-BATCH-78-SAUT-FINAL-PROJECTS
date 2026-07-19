@@ -1,0 +1,35 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+database.sql
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# env file
+.env
+
+# AI and Instructions files
+/AI/
+SKILL.md
+AGENTS.md
+Gemini_Generated_Image_*.png
+PRD_*.pdf
+
+# Temporary/temp files
+tmp/
+*.tmp
+*.log
