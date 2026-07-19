@@ -12,6 +12,10 @@ Backend RESTful API untuk Sistem Manajemen Portofolio Saham, dibangun dengan ars
 - **Kalkulasi Portofolio Otomatis:** Agregasi portofolio dengan validasi saldo lot sebelum transaksi SELL (mencegah *short selling* yang tidak valid).
 - **Auto-Migration:** Sinkronisasi skema database secara otomatis pada saat runtime menggunakan `sql-migrate`.
 
+## Skema Database (ERD)
+Sistem ini menggunakan struktur relasional dengan 4 tabel utama yang terhubung satu sama lain.
+![Entity Relationship Diagram (ERD)](Gemini_Generated_Image_9sh2p9sh2p9sh2p9.png)
+
 ## Prasyarat Lingkungan (Environment)
 
 Pastikan dependensi berikut telah terinstal dan berjalan:
